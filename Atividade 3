@@ -14,11 +14,11 @@ No algoritmo, descreva como será:
 3. Utilizado o comando de atribuição.
 
 Resposta: 
-nome = ""
-cpf = ""
-rg = ""
-altura = 0.0
-endereco = ""
+nome = "" (caractere)
+cpf = "" (inteiros)
+rg = "" (inteiros)
+altura = 0.0 (real)
+endereco = "" (Caractere)
 
 nome = "José Almeida da Silva"
 cpf = "12345678900"
