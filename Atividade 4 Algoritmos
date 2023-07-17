@@ -16,48 +16,48 @@ Apresente as informações solicitadas no final do cadastro.
 
 Resposta:
 
-Fiz o código em JavaScript com algumas alterações
+var
+Nome: caractere
+endereco: caractere
+cidade: caractere
+cpf: inteiro
+rg: inteiro
+idade: inteiro
+nome_do_pai: caractere
+nome_da_mae: caractere
+peso: real
+renda_bruta: real
 
-function cadastrarPessoa()
-  console.log("======= Cadastro de Pessoa =======");
-  const nome = prompt("Nome: ");
-  const endereco = prompt("Endereço: ");
-  const cidade = prompt("Cidade: ");
-  const cpf = prompt("CPF: ");
-  const rg = prompt("RG: ");
-  const idade = parseInt(prompt("Idade: "));
-  const nomePai = prompt("Nome do Pai: ");
-  const nomeMae = prompt("Nome da Mãe: ");
-  const peso = parseFloat(prompt("Peso (em kg): "));
-  const rendaBruta = parseFloat(prompt("Renda Bruta: "));
+inicio
+escreva(“qual seu nome: ”)
+leia(nome)
+escreva(“qual seu endereço: ”)
+leia(endereco)
+escreva(“qual sua cidade: ”)
+leia(cidade)
+escreva(“qual seu cpf: ”)
+leia(cpf)
+escreva(“qual seu rg: ”)
+leia(rg)
+escreva(“qual sua idade: ”)
+leia(idade)
+escreva(“qual o nome do seu pai: ”)
+leia(nome_do_pai)
+escreva(“qual o nome da sua mãe: ”)
+leia(nome_da_mae)
+escreva(“qual o seu peso: ”)
+leia(peso)
+escreva(“qual a sua renda bruta: ”)
+leia(renda_bruta)
 
-  console.log("\n======= Informações Cadastradas =======");
-  console.log("Nome: " + nome);
-  console.log("Endereço: " + endereco);
-  console.log("Cidade: " + cidade);
-  console.log("CPF: " + cpf);
-  console.log("RG: " + rg);
-  console.log("Idade: " + idade + " anos");
-  console.log("Nome do Pai: " + nomePai);
-  console.log("Nome da Mãe: " + nomeMae);
-  console.log("Peso: " + peso + " kg");
-  console.log("Renda Bruta: R$ " + rendaBruta.toFixed(2));
-}
-
-cadastrarPessoa();
-
- return pessoa;
-}
-
-const pessoaCadastrada = cadastrarPessoa();
-
-// Apresentar informações solicitadas no final do cadastro
-console.log("\n======= Informações Solicitadas =======");
-console.log("Nome: " + pessoaCadastrada.nome);
-console.log("CPF: " + pessoaCadastrada.cpf);
-console.log("Idade: " + pessoaCadastrada.idade + " anos");
-console.log("Peso: " + pessoaCadastrada.peso + " kg");
-console.log("Renda Bruta: R$ " + pessoaCadastrada.rendaBruta.toFixed(2));
-
-Acima o exemplo de cadastro das pessoas 
-
+escreva(“Seu nome é ”, nome)
+escreva(“Seu endereço é ”, endereco)
+escreva(“A cidade que você mora é ”, cidade)
+escreva(“Seu CPF é ”, cpf)
+escreva(“Seu RG é ”, rg)
+escreva(“Sua idade é ”, idade)
+escreva(“O nome do seu pai é ”, nome_do_pai)
+escreva(“O nome da sua mãe é ”, nome_da_mae)
+escreva(“O seu peso é ”, peso)
+escreva(“Sua renda bruta mensal é ”, renda_bruta)
+fimalgoritmo
